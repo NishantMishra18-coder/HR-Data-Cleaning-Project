@@ -1,0 +1,17 @@
+Column,Type,Description
+Age,integer,Employee age
+Attrition,category,Whether employee left
+BusinessTravel,category,Travel frequency
+DailyRate,integer,Daily pay rate
+Department,category,Employee department
+DistanceFromHome,integer,Distance from home
+Education,integer,Education level code
+EducationField,category,Education field
+EmployeeCount,integer,Employee count indicator
+EmployeeNumber,integer,Employee identifier
+Gender,category,Gender
+MonthlyIncome,integer,Monthly income
+JobLevel,integer,Job level
+JobRole,category,Job role
+OverTime,category,Overtime status
+YearsAtCompany,integer,Years at company

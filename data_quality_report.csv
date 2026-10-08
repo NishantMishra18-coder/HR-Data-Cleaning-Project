@@ -1,0 +1,6 @@
+Issue,Before,After,Action
+Missing values,8,0,Handled with median/mode imputation
+Duplicate rows,3,0,Removed exact duplicate records
+Rows,503,500,Three exact duplicate rows removed
+Columns,35,35,No columns removed
+Object/numeric conversion,Dirty numeric strings present,Validated numeric columns,Converted with pandas.to_numeric

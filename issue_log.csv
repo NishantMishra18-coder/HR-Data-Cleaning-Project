@@ -1,0 +1,6 @@
+Issue Type,Approx. Cases,Affected Fields,Resolution
+Missing values,8,"MonthlyIncome, Department, Gender, Age, JobRole, BusinessTravel, MonthlyRate, MaritalStatus",Median for numeric; mode for categorical
+Duplicate records,3,Exact duplicate rows,Removed with drop_duplicates()
+Incorrect data types,7,"Age, MonthlyIncome, DailyRate, MonthlyRate, PercentSalaryHike, JobLevel",Converted numeric strings; invalid text became missing then imputed
+Inconsistent values,11,"Gender, Department, BusinessTravel, Attrition, OverTime",Trimmed and mapped to standard labels
+Range validation,3,"Age, JobLevel, PerformanceRating",Invalid values replaced with median
